@@ -1,0 +1,166 @@
+Well, I need help you know troubleshooting that to see why it's
+failing. There's a there's approximately 3000 databases that.
+needs to be backed up everyday.
+
+we'd like a one week full full backup once a week and then every
+day have incremental backups.
+
+then on the B. E. M. Are you familiar with B. E. M.
+
+So one thing strange is we install the BM, but none of the servers
+are showing up here VBR.
+
+so we need another troubleshooting step here to figure out what's
+going on.
+
+I see
+
+0. K So that's kind of troubleshooting problem number two.
+
+And then after this is well, I'd like you to take a look at this system
+to see.
+We've kind of configured the jobs properly and indefinitely, right?
+Because 3000 databases, that's all. It's a lot of data, right? Thanks.
+So we're doing that most efficiently. And then once, once those two
+problems are resolved, then we need to be able to configure the
+BM so that they can host the the endpoints, right?
+
+for the A. P. I. S. So through a. P. I. We need from the same network.
+We need for another application to access access the the A. P. I. To
+do individual backups and individual store.
+
+to specific restore points of the database.
+Is that something you've done before
+
+//st
+Yeah, yeah. I thought it really worked with the being enterprise
+manager
+
+I've already setting up a secure access for internal applications. Also,
+configure API token base authentication, adjusting headers like
+accept and coding with G zip and manage endpoints such as jobs.
+We start points and also obsessions for automated operations. So I
+have a background with working with being API.
+//en
+
+Excellent. So As a part of this project, I'd like you to if you have sample code or
+through postman or something like that to be able to make a
+request to to the through the A. P. I. Okay and and specify a specific
+database out of 3001. of the databases out of 3000 at to a specific
+restore point and then restore it and.
+
+and then same thing with the backups. Select a particular database
+out of 3000 and say back it up okay. Yeah, so that's the that's the
+scope here, right? So phase one phase 1 is to fix and configure
+properly
+
+I'm sorry not configure but fix and kind of look at the overall
+backupjobs and see if they're efficient and student line them and
+then step 2 phase 2 is to is to set up the hosting of the A. P. I. And then be able to
+demonstrate that the A. P. I. Can be integrated to to perform stores
+and backups.
+
+//st
+in case you understand. Well, what I see is that well.
+
+I see that. Well, I have in mind some key components that maybe
+we need to configure in the project. Okay, first of all, the BM
+backup and replication
+
+We should define and schedule a backupjobs for all the databases
+that you're telling me. And also.
+
+for me, I think that we should have ABM or a backup enterprise
+manager to set up and expose restful way PIN points
+
+Also with this have some security configure authentication, possibly
+using bureau tokens or Windows credentials
+
+and to restore workflows like automated wrists and well automated
+tests restarts the specific points via the I. P. I. That's what I have in
+mind right now
+
+//en
+
+So based on that scope, can you provide a document that gives me
+the the scope, the timeline, as well as.
+
+a cost? Of course
+//st
+I can. I can make it and give it to you so you can see like a proposal
+for for the project. OK, when do you think I can have that?
+
+let me. Well, first of all, I have some questions to make you to make
+this proposal and have it all with clear information.
+
+from the beginning. I have like eight questions. I don't know if you
+have any problem with that. No, that's fine. Right. 0. K. Well, let me
+have my notes right here.
+
+The first of all is, are the SQ databases distributed across multiple
+servers orjust in a single instance?
+//en
+single.
+Okay. Another one is, is there already an existing backupjob
+structure? Or should this be built from scratch
+
+There's already existing backup jobs, but like I mentioned, one of
+the 4 is failing right now. We need to figure out why. Maybe we
+need to see what's happening now and have some changes in that.
+Okay.
+
+Another thing is that will the api be accessed by a single application
+or multiple systems?
+
+Currently single, but I would think if you can access it from a single,
+you should be able to access from mobile, multiple, right? Yeah.
+Well, yeah, yeah. This could happen also
+Also, do you need in terrible backups, like worm or of loading into
+object storage like history?
+
+No, okay, okay. Great. And the last one is that, is there a
+requirement for compliance that affects potential? Hold on a 2nd.
+So that last question we have, we have a beam cloud that is.
+
+taking the backups and and streaming them across to a different d.,
+r., 0. That
+
+'5 already in place
+
+0. K O. K. Great. And just the last one is that do you want a backup
+and restore metrics exposed to a dashboard? I can make it in
+Grafana or another custom Ul.
+
+That in BM.
+
+yeah, yeah, yeah. But also, you've wanted, like, in another place, I
+could make it with no problem.
+
+It's not a part of this original scope. Maybe later.
+
+Great. So, yeah, that's all my questions for you, Jonathan. OK, great.
+So you think you could have this proposal soon? Yeah, yeah, of
+course. With all these questions already answered, I can start
+working in in the proposal right now
+
+And as soon as l have it, I will text you and let you know to all these
+things that we just discussed. You've done before. Okay, great. How
+how old are you, Andreas? 75. I'm 2525.
+
+Oh my God. Yeah, I know. I look a lot younger, right?
+So are you sure you have experience? Yeah, I have 9 years of
+experience with all of this. Excellent. All right. And you're in Mexico.
+Yeah.
+
+Yeah, Mexican. So. So we're in the same time zone. I'm in California.
+Great. That's great. Yeah. Okay very good. All right, then I'll. When
+do you think you could have the proposal by tomorrow?
+
+Maybe tomorrow. But I would try to have it for today. 0 that'd be
+even better. Yeah. O. K. I'm trying to. I'm trying to finalize interviews
+and hire somebody by tomorrow. 0. K.
+
+I see. Alright.
+
+I'll just anything else.
+For me. Okay, I'll look forward to your proposal then. Great. Well,
