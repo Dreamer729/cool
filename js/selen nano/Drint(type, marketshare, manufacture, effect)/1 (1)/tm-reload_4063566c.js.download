@@ -1,2 +1,0 @@
-var tplConfig={add2basketTpl4Supplier:'<a title="Add to inquiry basket to compare." href="javascript:$fn" rel="nofollow"><i class="ob-icon icon-add-l"></i><span>Compare</span></a>',alreadyTpl4Supplier:'<a href="javascript:;" onclick="showMiniInquiry(\'supplier\');"><i class="ob-icon icon-yes"></i><span>Added</span></a>'};inquiryMini&&inquiryMini.setConfig(tplConfig);
-//# sourceMappingURL=../../../../../__sources__/landing/www/qc/js/supplierSearch/tm-reload_4063566c.js.map
